@@ -1,0 +1,25 @@
+div {
+	position: relative;
+}
+.contenedor {
+	padding: 15px;
+	width: 51%; /*El % ajusta el ancho del contenedor al tamaño de las 3 fotos y su padding*/
+	background-color: purple;
+	border: orange dotted 2px;
+}
+.foto {
+	display: inline-block;
+	padding: 5px;
+}
+.nombre {
+	color: white;
+	position: relative;
+	left: 110px;
+	bottom: 40px;
+}
+hr {
+	background-color: purple;
+	width: 100px;
+	height: 6px;
+	margin: 5px 0px;
+}
